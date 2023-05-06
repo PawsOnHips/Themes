@@ -1,0 +1,91 @@
+/**
+ * @name ellie
+ * @author HypnotistSappho
+ * @version 4.2.0
+ * @description ZOO PRIDE
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.gitlab.io
+*/
+/* the font looks a bit opaque there were no other settings for the fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono+Regular:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono+Regular:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+
+:root {
+  --main-color: #ab32c4;
+  --hover-color: rgba(158, 82, 209, 0.932);
+  --success-color: #00FFCA;
+  --danger-color: #FF0000;
+  --url-color: var(--main-color);
+  --background-image: url(https://media.discordapp.net/attachments/1041531817485938698/1101264333486432396/image.png?width=1191&height=670);
+  --background-shading: 90%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 59%;
+  --background-contrast: 152%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 1px;
+  --background-overlay: rgba(165, 68, 113, 0.226);
+  --user-popout-image: url(https://media.discordapp.net/attachments/920735719201337440/1101276135234482176/image.png?width=197&height=267);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 1px;
+  --user-modal-image: url(https://media.discordapp.net/attachments/1031755618073202738/1053026099862454364/VRChat_1920x1080_2022-08-28_02-37-32.954.jpg?width=1015&height=670);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 1px;
+  --home-icon: url(https://media.discordapp.net/attachments/920735719201337440/1101268295820255304/Fpc9MFUXsAcHbMc.png?width=1041&height=670);
+  --home-position: center;
+  --home-size: 75px;
+  --channel-unread: #d67dff;
+  --channel-color: rgba(145, 90, 156, 0.801);
+  --muted-color: rgb(93, 52, 109);
+  --online-color: rgb(240, 74, 143);
+  --idle-color: rgba(201, 36, 165, 0.753);
+  --dnd-color: rgb(124, 5, 148);
+  --streaming-color: #8A00FF;
+  --offline-color: rgba(112, 97, 153, 0.733);
+  --main-font: Cascadia code;
+  --code-font: Cascadia code;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(201, 57, 165, 0.637);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
+/* Any custom CSS below here */
+body {
+  opacity: 1 !important;
+}
+
